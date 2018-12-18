@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:700");
+body {
+  font-family: "PT Sans", sans-serif; }
+
+h1, h3 {
+  font-weight: bold; }
+
+h2 {
+  color: #fcdb00; }
+
+h3, h4 {
+  margin-bottom: 20px; }
+
+a {
+  color: #010101;
+  font-weight: bold; }
+  a:hover {
+    text-decoration: none;
+    color: #010101;
+    opacity: 0.7; }
+
+header {
+  background-color: #fcdb00;
+  padding-bottom: 70px;
+  margin-bottom: 100px; }
+  header .logo {
+    width: 43px;
+    height: 43px; }
+  @media (max-width: 320px) {
+    header h1 {
+      text-align: center; } }
+  header .mar-bot-100 {
+    margin-bottom: 100px; }
+  header .navbar {
+    padding-right: 0; }
+  header .navbar-light .navbar-toggler {
+    border: none;
+    padding: 0; }
+  header .carousel {
+    padding-bottom: 70px; }
+
+.tablet-logo {
+  top: 40%;
+  left: 33%; }
+  .tablet-logo h2 {
+    margin-left: 50px; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.icon {
+  background-image: url(../images/sprite-icons.png);
+  background-repeat: no-repeat;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  float: left; }
+
+.icon-tablet {
+  background-position: 4px 0px; }
+
+.icon-lemon {
+  background-position: -45px -2px; }
+
+.icon-folder {
+  background-position: -3px -54px; }
+
+.icon-slash {
+  background-position: -63px -54px; }
+
+.icon-email {
+  background-position: -100px 1px; }
+
+.icon-flat {
+  background-position: -116px -50px; }
+
+.main-content {
+  margin-bottom: 100px; }
+
+footer {
+  background-color: #010101; }
+  footer h3 {
+    color: #fcdb00;
+    margin-top: 100px; }
+  footer h4 {
+    color: #898989; }
+  footer p {
+    color: #ffffff; }
+  footer a {
+    color: #ffffff;
+    font-weight: normal; }
+    footer a:hover {
+      color: #ffffff; }
+  footer form {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    footer form input[type="email"] {
+      width: 75%;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px; }
+      @media (max-width: 767px) {
+        footer form input[type="email"] {
+          margin-right: 0;
+          margin-bottom: 10px; } }
+      @media (max-width: 350px) {
+        footer form input[type="email"] {
+          width: 100%; } }
+    footer form input[type="submit"] {
+      width: 13%;
+      background-color: #fbdb00;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-weight: bold; }
+      footer form input[type="submit"]:hover {
+        opacity: 0.7;
+        cursor: pointer; }
+      @media (max-width: 767px) {
+        footer form input[type="submit"] {
+          width: 30%; } }
+      @media (max-width: 360px) {
+        footer form input[type="submit"] {
+          width: 40%; } }
+  footer svg {
+    background-color: #fcdb00;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
